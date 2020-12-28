@@ -1,0 +1,196 @@
+
+
+
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>css 1st class</title>
+        
+        <style>
+        
+            .wrapper{
+                
+                width: 100%;
+                
+            }
+        .header{
+                height: 100px;
+                width: 100%;
+                background-color: black;
+            }
+            .menu{
+                height: 50px;
+                width: 100%;
+                background-color: 	#ffffff;
+                margin-top: 300px;
+               
+            }
+            .menu a{
+                 color: black;
+            text-decoration: none;
+                display: inline-block;
+                padding: 10px;
+                font-weight: bold;
+            }
+            .menu a:hover{
+                
+                color: brown;
+            }
+            
+            .content{
+                height: auto;
+                width: 100%;
+                background-color:greenyellow;
+            }
+            .footer{
+                height: 50px;
+                width: 100%;
+                background-color: wheat;
+                text-align: center;
+                
+            }
+       
+            .middle{
+                height: 500px;
+                width: 100%;
+                background-color:#ffe6ff;'
+                float: right;
+                font-weight: bold;
+                
+               
+            }
+            .text{
+                margin-left: 100px;
+            }
+            .mar{
+                margin-top: -200px;
+                font-size: 50px;
+            }
+        
+        </style>
+        
+        
+        
+        
+    </head>
+
+    <body>
+        <div>
+            <div class="wrapper"></div>
+            <div class="header">
+                <img src="img/Banner.jpg" width="100%" height="400px">
+               <div class="mar"><marquee direction="right"> Welcome to My Student  Portfolio  </marquee></div>
+                
+            </div>
+            <div class="menu">
+               
+                <a href="#">Home</a> 
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="content">
+               
+                
+              
+                <div class="middle">
+                    <center>
+                    <form action="insert.php" method="post">
+
+        
+            <legend>
+                <h2>Student Resistration From</h2>
+            </legend>
+
+            <table class="text">
+               
+               
+                <tr>
+                    <td>
+                        Student Name :
+
+                    </td>
+                    
+                    <td> <input type="text" name="sname"> </td>
+                </tr>
+                <tr>
+                    <td>
+                       Student ID  :
+
+                    </td>
+
+                    <td> <input type="text" name="id" ></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Department :
+
+                    </td>
+                    <td><select name="dept">
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>BBA</option>
+            </select>
+                    </td>
+                </tr>
+
+                
+                
+
+                
+                <tr>
+
+                    <td>Batch:</td>
+                    <td><select name="batch">
+                <option>50</option>
+                  <option>51</option>
+                    <option>52</option>
+            </select></td>
+
+
+                </tr>
+
+                <tr>
+
+                    <td>Email Address :</td>
+                    <td> <input type="email" name="email"></td>
+
+                </tr>
+                <tr>
+                    <td>Contact Number:</td>
+                    <td><input type="text" name="contact"></td>
+                   
+
+                </tr>
+                <tr> <td> photo: </td>
+                <td><input type="file" name="file"></td>
+                </tr>          
+
+
+
+
+            </table>
+
+
+            <button> Submit </button>
+ 
+                    
+                      </form>
+                    </center>
+                    
+                </div>
+                    
+                
+            </div>
+            <div class="footer">
+                credit go to here...
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
